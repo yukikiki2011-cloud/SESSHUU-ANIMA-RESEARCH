@@ -26,6 +26,11 @@
 | リポジトリ | SESSHUU-ANIMA-RESEARCH |
 | 公開設定 | Public |
 
+## 重要メモ
+
+- **Claude Code 辞典 (by KAWAI)**: [https://claude-code-dictionary.pages.dev/](https://claude-code-dictionary.pages.dev/)
+  - Claude Code の導入・設定・新機能を網羅した、毎日更新される重要リソース。
+
 ---
 
 *© 2026 SESSHUU ANIMA - AI × Creative Strategy*
