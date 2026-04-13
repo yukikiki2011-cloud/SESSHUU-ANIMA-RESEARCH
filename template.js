@@ -1,6 +1,6 @@
 function runSync() {
   var db = __DB_PLACEHOLDER__;
-  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var ss = SpreadsheetApp.openById("1x6VUben-GX6KZyvs749NHyAiU5j-P-tvnm92dnJ5hY4");
   for(var sheetName in db) {
     var dataObjs = db[sheetName];
     if(!dataObjs || dataObjs.length === 0) continue;
