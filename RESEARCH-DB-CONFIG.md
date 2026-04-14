@@ -46,6 +46,46 @@
 
 毎日 **23:00 JST** にリモートエージェントが、各メンバーの新着投稿および **Claude Code 辞典の更新**をリサーチして追記します。
 
+- トリガーID: `trig_0166rVRMVYRfjSSZtn7mxivN`
+- 管理: https://claude.ai/code/scheduled/trig_0166rVRMVYRfjSSZtn7mxivN
+
 ---
 
-*SESSHUU ANIMA RESEARCH v1.1 / 2026-04-02*
+## データベースのカラム構成（共通）
+
+| カラム | 内容 |
+|--------|------|
+| メディア | X または note |
+| 投稿日（推定） | YYYY-MM-DD形式 |
+| タイトル／本文（抜粋） | 投稿タイトルまたは本文冒頭100文字 |
+| カテゴリ | デザイン思考/AI/ビジネス/ブランディング/教育/その他 |
+| URL | 投稿のURL |
+| メモ・要点 | 要点を1〜2文で |
+| チェックすべき関連サイト | 投稿内で言及されているサイト・ツール |
+| 重要なワード | キーワード（カンマ区切り） |
+| 今後深堀すべきポイント | フォローすべき視点・問い |
+
+---
+
+## 自動・手動更新時のGit作業手順
+
+1. `SESSHUU-ANIMA-RESEARCH` リポジトリをcloneまたはpullして最新データを取得
+2. データを参照してリサーチ・分析を行う
+3. 新しい知見や更新があれば該当する `RESEARCH_○○.csv` に追記してpush
+
+```bash
+# 最新データ取得
+git clone https://ghp_************************************@github.com/yukikiki2011-cloud/SESSHUU-ANIMA-RESEARCH
+cd SESSHUU-ANIMA-RESEARCH
+
+# 更新後に該当ファイルのpush (AI自動更新の場合の例)
+git config user.email "ai-research-bot@auto.com"
+git config user.name "AI Research Bot"
+git add RESEARCH_*.csv
+git commit -m "YYYY-MM-DD 更新内容"
+git push
+```
+
+---
+
+*SESSHUU ANIMA RESEARCH v2.0 / Unified Configuration*
