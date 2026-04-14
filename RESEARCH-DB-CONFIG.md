@@ -8,6 +8,8 @@
 - `RESEARCH_TOMOYA.csv`
 - `RESEARCH_TERAMACHI.csv`
 - `RESEARCH_WEBER.csv`
+- `RESEARCH_KIUCHI.csv`
+- `RESEARCH_SATOU.csv`
 
 ---
 
