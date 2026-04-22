@@ -52,7 +52,7 @@
 | 公開設定 | Public |
 | **監視対象 (共通)** | [Claude Code Guide](https://claude-code-dictionary.pages.dev/) |
 | **監視対象 (共通・チーム全体)** | **[SHIFT AI TIMES Blog](https://shift-ai.co.jp/blog/)** — KIUCHIのメディア事業。KIUCHI・YANAGI・TERAMACHI・TOMOYA等が執筆。チーム全体のAIトレンド基準点。`RESEARCH_SHIFTAI_BLOG.csv` に蓄積、TOMOYAが週1で各メンバーCSVへ振り分け |
-| **監視対象 (KAWAI)** | X (`@kawai_design`), note (`note.com/kawaidesign`), Threads (`@kawai_design_ig`), Voicy |
+| **監視対象 (KAWAI)** | X (`@kawai_shiftai`), note, Voicy, **[kawai-official.pages.dev](https://kawai-official.pages.dev/)** ← 公式サイト（SKILLS.mdのソースオブトゥルース・更新検知必須） |
 | **監視対象 (YANAGI)** | X (`@ryonihonyanagi`, `@yanagi_shiftai`) |
 | **監視対象 (TOMOYA)** | X (`@AIParaCareer`) |
 | **監視対象 (TERAMACHI)** | X (`@tewriter_0327`), note (`note.com/tera684`), `webwriter-school.net` |
